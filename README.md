@@ -1,7 +1,7 @@
-<H3>ENTER YOUR NAME : M NIKHIL</H3>
-<H3>ENTER YOUR REGISTER NO : 212222230095</H3>
+<H3>NAME :  M NIKHIL</H3>
+<H3>REGISTER NO.  212222230095</H3>
 <H3>EX. NO.3</H3>
-<H3>DATE : 13-04-2024</H3>
+<H3>DATE: 13-04-2024</H3>
 <H2 aligh = center> Implementation of MLP for a non-linearly separable data</H2>
 <h3>Aim:</h3>
 To implement a perceptron for classification using Python
@@ -36,6 +36,7 @@ Step 3: Repeat the  iteration  until the losses become constant and  minimum<BR>
 Step 4 : Test for the XOR patterns.
 
 <H3>Program:</H3>
+
 ```python
 import numpy as np
 import pandas as pd
@@ -102,10 +103,9 @@ predict(w1,w2,test)
 test=np.array([[0],[0]])
 predict(w1,w2,test)
 ```
-
 <H3>Output:</H3>
 
-![image](https://github.com/M-Nikhil20/Ex-3-NN/assets/118707852/2f53d9fb-d5c7-423a-9e52-65cda5dcc0cd)
+![image](https://github.com/R-Udayakumar/Ex-3-NN/assets/118708024/32b68395-ccad-4216-9a10-79e122a2ba68)
 
 <H3> Result:</H3>
 Thus, XOR classification problem can be solved using MLP in Python 
